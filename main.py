@@ -1,3 +1,8 @@
+"""Filtere gerade Zahlen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/filter
+"""
+
 def filter_even_numbers(numbers):
     """
     Filtert die geraden Zahlen aus der gegebenen Liste.
@@ -11,6 +16,6 @@ def filter_even_numbers(numbers):
 
 
 if __name__ == '__main__':
-    numbers = list(range(1, 51))
-    even_numbers = filter_even_numbers(numbers)
+    demo_numbers = list(range(1, 51))
+    even_numbers = filter_even_numbers(demo_numbers)
     print(list(even_numbers))
