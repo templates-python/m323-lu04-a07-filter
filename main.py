@@ -1,3 +1,8 @@
+"""Filtere gerade Zahlen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/filter
+"""
+
 def filter_even_numbers(numbers):
     """
     Filtert die geraden Zahlen aus der gegebenen Liste.
